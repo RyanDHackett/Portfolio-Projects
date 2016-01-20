@@ -1,0 +1,5 @@
+C:\Users\NSCCSTUDENT\Desktop\Repo\RyanHackett_Assignment1_SyncronousChat\ChatLib\bin\Debug\ChatLib.dll
+C:\Users\NSCCSTUDENT\Desktop\Repo\RyanHackett_Assignment1_SyncronousChat\ChatLib\bin\Debug\ChatLib.pdb
+C:\Users\NSCCSTUDENT\Desktop\Repo\RyanHackett_Assignment1_SyncronousChat\ChatLib\obj\Debug\ChatLib.csprojResolveAssemblyReference.cache
+C:\Users\NSCCSTUDENT\Desktop\Repo\RyanHackett_Assignment1_SyncronousChat\ChatLib\obj\Debug\ChatLib.dll
+C:\Users\NSCCSTUDENT\Desktop\Repo\RyanHackett_Assignment1_SyncronousChat\ChatLib\obj\Debug\ChatLib.pdb

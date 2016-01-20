@@ -1,0 +1,10 @@
+h:\visual studio 2013\Projects\Final Project Yahtzee\Final Project Yahtzee\bin\Debug\Final Project Yahtzee.exe.config
+h:\visual studio 2013\Projects\Final Project Yahtzee\Final Project Yahtzee\bin\Debug\Final Project Yahtzee.exe
+h:\visual studio 2013\Projects\Final Project Yahtzee\Final Project Yahtzee\bin\Debug\Final Project Yahtzee.pdb
+h:\visual studio 2013\Projects\Final Project Yahtzee\Final Project Yahtzee\bin\Debug\Final Project Yahtzee.xml
+h:\visual studio 2013\Projects\Final Project Yahtzee\Final Project Yahtzee\obj\Debug\Final_Project_Yahtzee.Resources.resources
+h:\visual studio 2013\Projects\Final Project Yahtzee\Final Project Yahtzee\obj\Debug\Final Project Yahtzee.vbproj.GenerateResource.Cache
+h:\visual studio 2013\Projects\Final Project Yahtzee\Final Project Yahtzee\obj\Debug\Final Project Yahtzee.exe
+h:\visual studio 2013\Projects\Final Project Yahtzee\Final Project Yahtzee\obj\Debug\Final Project Yahtzee.xml
+h:\visual studio 2013\Projects\Final Project Yahtzee\Final Project Yahtzee\obj\Debug\Final Project Yahtzee.pdb
+H:\Visual Studio 2013\Projects\Final Project Yahtzee\Final Project Yahtzee\obj\Debug\Final_Project_Yahtzee.YahtzeeGame.resources

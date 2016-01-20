@@ -1,0 +1,10 @@
+C:\Users\NSCCSTUDENT\Desktop\Repo\RyanHackett_Assignment1_SyncronousChat\ChatApp\bin\Debug\ChatApp.exe.config
+C:\Users\NSCCSTUDENT\Desktop\Repo\RyanHackett_Assignment1_SyncronousChat\ChatApp\bin\Debug\ChatApp.exe
+C:\Users\NSCCSTUDENT\Desktop\Repo\RyanHackett_Assignment1_SyncronousChat\ChatApp\bin\Debug\ChatApp.pdb
+C:\Users\NSCCSTUDENT\Desktop\Repo\RyanHackett_Assignment1_SyncronousChat\ChatApp\bin\Debug\ChatLib.dll
+C:\Users\NSCCSTUDENT\Desktop\Repo\RyanHackett_Assignment1_SyncronousChat\ChatApp\bin\Debug\ChatLib.pdb
+C:\Users\NSCCSTUDENT\Desktop\Repo\RyanHackett_Assignment1_SyncronousChat\ChatApp\obj\Debug\ChatApp.csprojResolveAssemblyReference.cache
+C:\Users\NSCCSTUDENT\Desktop\Repo\RyanHackett_Assignment1_SyncronousChat\ChatApp\obj\Debug\ChatApp.Properties.Resources.resources
+C:\Users\NSCCSTUDENT\Desktop\Repo\RyanHackett_Assignment1_SyncronousChat\ChatApp\obj\Debug\ChatApp.csproj.GenerateResource.Cache
+C:\Users\NSCCSTUDENT\Desktop\Repo\RyanHackett_Assignment1_SyncronousChat\ChatApp\obj\Debug\ChatApp.exe
+C:\Users\NSCCSTUDENT\Desktop\Repo\RyanHackett_Assignment1_SyncronousChat\ChatApp\obj\Debug\ChatApp.pdb
