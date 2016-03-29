@@ -1,0 +1,6 @@
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\LoggerLib\bin\Debug\LoggerLib.dll
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\LoggerLib\bin\Debug\LoggerLib.pdb
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\LoggerLib\obj\Debug\LoggerLib.csprojResolveAssemblyReference.cache
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\LoggerLib\obj\Debug\LoggerLib.dll
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\LoggerLib\obj\Debug\LoggerLib.pdb
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\LoggerLib\bin\Debug\LoggerLib.XML

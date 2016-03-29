@@ -1,0 +1,16 @@
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\ClientUI\bin\Debug\ClientUI.exe.config
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\ClientUI\obj\Debug\ClientUI.exe
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\ClientUI\obj\Debug\ClientUI.pdb
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\ClientUI\obj\Debug\ClientUI.csprojResolveAssemblyReference.cache
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\ClientUI\obj\Debug\ClientUI.ui.resources
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\ClientUI\obj\Debug\ClientUI.Properties.Resources.resources
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\ClientUI\obj\Debug\ClientUI.csproj.GenerateResource.Cache
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\ClientUI\bin\Debug\ClientUI.exe
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\ClientUI\bin\Debug\ClientUI.pdb
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\ClientUI\bin\Debug\ChatLib.dll
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\ClientUI\bin\Debug\LoggerLib.dll
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\ClientUI\bin\Debug\ChatLib.pdb
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\ClientUI\bin\Debug\LoggerLib.pdb
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\ClientUI\bin\Debug\ChatLib.xml
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\ClientUI\bin\Debug\ClientUI.XML
+C:\Users\NSCCSTUDENT\Desktop\w0232748\Assignment2AsyncronousChat\ClientUI\bin\Debug\LoggerLib.xml

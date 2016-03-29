@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\nsccstudent\desktop\w0232748\data structures\assignment3sorting\assignment3sorting\sorter.h(27): warning C4091: 'static ': ignored on left of 'Sorter' when no variable is declared
+c:\users\nsccstudent\desktop\w0232748\data structures\assignment3sorting\assignment3sorting\externalsorter.h(37): warning C4091: 'static ': ignored on left of 'ExternalSorter' when no variable is declared
+  Assignment3Sorting.vcxproj -> C:\Users\NSCCSTUDENT\Desktop\w0232748\Data Structures\Assignment3Sorting\Debug\Assignment3Sorting.exe
+  Assignment3Sorting.vcxproj -> C:\Users\NSCCSTUDENT\Desktop\w0232748\Data Structures\Assignment3Sorting\Debug\Assignment3Sorting.pdb (Partial PDB)

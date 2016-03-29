@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChatLib</name>
+    </assembly>
+    <members>
+        <member name="T:ChatLib.Client">
+            <summary>
+            Most of this code is taken from https://msdn.microsoft.com/en-us/library/system.net.sockets.tcplistener(v=vs.110).aspx
+            </summary>
+        </member>
+        <member name="M:ChatLib.Client.#ctor">
+            <summary>
+            Constructor of Client Class
+            Instances inner TcpClient property, 
+            </summary>
+        </member>
+        <member name="E:ChatLib.Client.MessageReceived">
+            <summary>
+            Thread for receiving messages from the server
+            </summary>
+        </member>
+        <member name="E:ChatLib.Client.MessageSent">
+            <summary>
+            Thread for sending messages to the server
+            </summary>
+        </member>
+        <member name="E:ChatLib.Client.Connected">
+            <summary>
+            Thread for connecting to the server
+            </summary>
+        </member>
+        <member name="E:ChatLib.Client.Disconnected">
+            <summary>
+            Thread for disconnecting from the server
+            </summary>
+        </member>
+        <member name="M:ChatLib.Client.SendMessage">
+            <summary>
+            Sends a message to the server and also prints the message to the form
+            If the server isn't connected, prints connection error to form
+            </summary>
+        </member>
+        <member name="M:ChatLib.Client.Connect">
+            <summary>
+            Attempts to connect to a server(if not already connected)
+            Starts the listening loop for receiving messages(even if already connected)
+            </summary>
+        </member>
+        <member name="M:ChatLib.Client.Disconnect">
+            <summary>
+            Stops the message receiving thread by setting listening to false
+            Reports the disconnect to the form
+            </summary>
+        </member>
+        <member name="M:ChatLib.Client.Close">
+            <summary>
+            Closes the client's connection to the server
+            and writes the log of events to file
+            </summary>
+        </member>
+        <member name="P:ChatLib.ChatApplication.RunningClient">
+            <summary>
+            Getter and Setter for runningClient property
+            </summary>
+        </member>
+        <member name="P:ChatLib.ChatApplication.Address">
+            <summary>
+            Getter and Setter for address property
+            </summary>
+        </member>
+        <member name="P:ChatLib.ChatApplication.PortNumber">
+            <summary>
+            Getter and Setter for portNumber property
+            </summary>
+        </member>
+        <member name="P:ChatLib.ChatApplication.DataStream">
+            <summary>
+            Getter and Setter for dataStream property
+            </summary>
+        </member>
+        <member name="P:ChatLib.ChatApplication.Message">
+            <summary>
+            Getter and Setter for message property
+            </summary>
+        </member>
+        <member name="M:ChatLib.ChatApplication.SendMessage(System.String)">
+            <summary>
+            Writes the provided message to the datastream shared between the client and the server. 
+            Server can read it immedietey after.
+            </summary>
+            <param name="message">The message to be sent to the Client or Server</param>
+        </member>
+        <member name="M:ChatLib.ChatApplication.ReceiveMessage">
+            <summary>
+            Reads data from the provided NetworkStream after confirming that data can be received
+            </summary>
+            <param name="DataStream"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ChatLib.MessageEventArgs">
+            <summary>
+            For holding information related to messages
+            </summary>
+        </member>
+        <member name="P:ChatLib.MessageEventArgs.Message">
+            <summary>
+            The value of the message being sent or received
+            </summary>
+        </member>
+        <member name="P:ChatLib.MessageEventArgs.IsMessageFromServer">
+            <summary>
+            Whether or not the message is from the server, used as a flag for 
+            displaying messages in a specific way dependant on the sender
+            </summary>
+        </member>
+        <member name="M:ChatLib.MessageEventArgs.#ctor(System.String,System.Boolean)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="message"></param>
+            <param name="isMessageFromServer"></param>
+        </member>
+        <member name="T:ChatLib.MessageHandler">
+            <summary>
+            Handler for sending messages
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:ChatLib.ConnectHandler">
+            <summary>
+            Handler for connecting to a server
+            </summary>
+        </member>
+        <member name="T:ChatLib.DisconnectHandler">
+            <summary>
+            Handler for disconnecting from a server
+            </summary>
+        </member>
+        <member name="T:ChatLib.Server">
+            <summary>
+            Most of this code is taken from https://msdn.microsoft.com/en-us/library/system.net.sockets.tcplistener(v=vs.110).aspx
+            </summary>
+        </member>
+        <member name="P:ChatLib.Server.RunningServer">
+            <summary>
+            Getter and Setter for runningServer property
+            </summary>
+        </member>
+        <member name="M:ChatLib.Server.#ctor">
+            <summary>
+            Constructor of Server Class
+            Instances inner TcpListener property
+            </summary>
+        </member>
+        <member name="M:ChatLib.Server.ListenForClient">
+            <summary>
+            Makes the RunningServer(The listener) active and starts a blocking call which listens 
+            for a client connection
+            </summary>
+        </member>
+    </members>
+</doc>

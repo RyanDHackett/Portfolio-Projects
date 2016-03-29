@@ -1,0 +1,10 @@
+2/12/2016 11:21:45 AM - Client disconnected. Chat session ended.
+2/12/2016 11:21:45 AM - Client disconnected. Chat session ended.
+2/12/2016 11:23:04 AM - Client connected to server at 127.0.0.1 on 13000
+2/12/2016 11:23:06 AM - Client: hi
+2/12/2016 11:23:10 AM - Client: quit
+2/12/2016 11:23:10 AM - Client disconnected. Chat session ended.
+2/12/2016 11:25:37 AM - Client connected to server at 127.0.0.1 on 13000
+2/12/2016 11:25:40 AM - Client: quit
+2/12/2016 11:25:40 AM - Client disconnected. Chat session ended.
+2/12/2016 11:29:33 AM - Client disconnected. Chat session ended.

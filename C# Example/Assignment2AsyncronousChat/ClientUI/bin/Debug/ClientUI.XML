@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClientUI</name>
+    </assembly>
+    <members>
+        <member name="F:ClientUI.ui.client">
+            <summary>
+            The client object to be used by the program
+            </summary>
+        </member>
+        <member name="F:ClientUI.ui.connectAndReceiveThread">
+            <summary>
+            For Connecting to the server and listening for messages
+            </summary>
+        </member>
+        <member name="F:ClientUI.ui.sendMessageThread">
+            <summary>
+            For sending messages to the server
+            </summary>
+        </member>
+        <member name="F:ClientUI.ui.disconnectThread">
+            <summary>
+            For disconnecting from (and shutting down) the server
+            </summary>
+        </member>
+        <member name="M:ClientUI.ui.#ctor">
+            <summary>
+            constructor for the client form
+            Instantiates the inner tcpClient, then sets up all event handlers.
+            </summary>
+        </member>
+        <member name="M:ClientUI.ui.btnSend_Click(System.Object,System.EventArgs)">
+            <summary>
+            Starts a new thread that sends a message to the server
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ClientUI.ui.connectToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Starts a thread that connects to the server and starts the listening loop
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ClientUI.ui.SendOrReceiveMessage(System.Object,ChatLib.MessageEventArgs)">
+            <summary>
+            Started by the receive and send event handlers to print a message to the form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ClientUI.ui.Disconnect">
+            <summary>
+            Started by the disconnect handler to disconnect from the server
+            </summary>
+        </member>
+        <member name="M:ClientUI.ui.Connect">
+            <summary>
+            Started by the connect handler to connect to the server
+            </summary>
+        </member>
+        <member name="M:ClientUI.ui.WriteToChatBox(System.String)">
+            <summary>
+            Prints the specified message to the conversation textbox
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:ClientUI.ui.Exit">
+            <summary>
+            Gracefully ends all threads and stops the server
+            </summary>
+        </member>
+        <member name="F:ClientUI.ui.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ClientUI.ui.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ClientUI.ui.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ClientUI.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:ClientUI.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ClientUI.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ClientUI.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

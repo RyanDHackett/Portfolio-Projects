@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LoggerLib</name>
+    </assembly>
+    <members>
+        <member name="T:LoggerLib.TextLogger">
+            <summary>
+            Utility for logging events from a program to a text file.
+            </summary>
+        </member>
+        <member name="M:LoggerLib.TextLogger.AddEntry(System.String)">
+            <summary>
+            Adds the provided entry to the Entries list
+            </summary>
+            <param name="entry">Entry to be added</param>
+        </member>
+        <member name="M:LoggerLib.TextLogger.WriteEntriesToFile">
+            <summary>
+            Writes the list of entries to a text file at path
+            </summary>
+        </member>
+    </members>
+</doc>
