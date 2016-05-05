@@ -1,0 +1,73 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="Angularjs.js"></script>
+</head>
+<body ng-app="ShapeApp">
+	<div ng-controller="shapesParentController">
+	Number of Shapes: <label ng-bind="count"></label></br>
+		<div ng-controller="circleController" style="border:1px solid black;" >
+			<p>Circles </br>
+			Count:<label ng-bind="count"></label></br>
+			Radius: <input type="text" ng-model="circle.radius"/>
+			</br>
+			<button ng-click="Add()" ng-disabled="disabled">Add Circle</button>
+			<ol ng-repeat="x in circles track by $index">
+			<li value="{{$index+1}}">
+			Radius: <label ng-bind="x.radius"></label></br>
+			Area: <label ng-bind="x.area"></label>
+			</li>
+			</ol>
+			</p>
+		</div>
+		</br>
+		<div ng-controller="squareController" style="border:1px solid black">
+			<p>Squares </br>
+			Count:<label ng-bind="count"></label></br>
+			Side: <input type="text" ng-model="square.side"/>
+			</br>
+			<button ng-click="Add()" ng-disabled="disabled">Add Square</button>
+			<ol ng-repeat="x in squares track by $index">
+			<li value="{{$index+1}}">
+			Side: <label ng-bind="x.side"></label></br>
+			Area: <label ng-bind="x.area"></label>
+			</li>
+			</ol>
+			</p>
+		</div>
+		</br>
+		<div ng-controller="rectangleController" style="border:1px solid black;">
+			<p>Rectangles </br>
+			Count:<label ng-bind="count"></label></br>
+			Width: <input type="text" ng-model="rectangle.width"/></br>
+			Height: <input type="text" ng-model="rectangle.height"/>
+			</br>
+			<button ng-click="Add()" ng-disabled="disabled">Add Rectangle</button>
+			<ol ng-repeat="x in rectangles track by $index">
+			<li value="{{$index+1}}">
+			Width: <label ng-bind="x.width"></label></br>
+			Height: <label ng-bind="x.height"></label></br>
+			Area: <label ng-bind="x.area"></label>
+			</li>
+			</ol>
+			</p>
+		</div>
+		</br>
+		<div ng-controller="triangleController" style="border:1px solid black;">
+			<p>Triangles </br>
+			Count:<label ng-bind="count"></label></br>
+			Width: <input type="text" ng-model="triangle.width"/></br>
+			Height: <input type="text" ng-model="triangle.height"/>
+			</br>
+			<button ng-click="Add()" ng-disabled="disabled">Add Triangle</button>
+			<ol ng-repeat="x in triangles track by $index">
+			<li value="{{$index+1}}">
+			Width: <label ng-bind="x.width"></label></br>
+			Height: <label ng-bind="x.height"></label></br>
+			Area: <label ng-bind="x.area"></label>
+			</li>
+			</ol>
+			</p>
+		</div>
+	</div>
+</body>
